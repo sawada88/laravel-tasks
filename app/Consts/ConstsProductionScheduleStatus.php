@@ -1,0 +1,16 @@
+<?php
+
+namespace App\Consts;
+
+class ConstsProductionScheduleStatus
+{
+  public const PRODUCTION_SCHEDULE_STATUS_ONSCHE 			= 0;
+  public const PRODUCTION_SCHEDULE_STATUS_ONSCHE_TOOLLACK 	= 1;
+  public const PRODUCTION_SCHEDULE_STATUS_ONSCHE_WAITWSS 	= 2;
+  public const PRODUCTION_SCHEDULE_STATUS_ONSCHE_WAITINPROCESS = 3;
+  public const PRODUCTION_SCHEDULE_STATUS_ONSCHE_INPROCESS 	= 4;
+}
+
+
+
+
